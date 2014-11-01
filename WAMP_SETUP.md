@@ -12,7 +12,8 @@ Please follow the instructions below for those doing PHP for their projects to e
 
 4. Change the startup type to **disabled** and press the **stop** button to stop the service: ![stop service](http://puu.sh/cxCyr/0f72cea4d9.png)
 
-5. Restart WAMP server, you should now see it light up in green: ![wamp](http://puu.sh/cxDcX/2e43b15c85.png)
+5. Restart WAMP server, you should now see it light up in green:    
+![wamp](http://puu.sh/cxDcX/2e43b15c85.png)
 
 6. Go to **localhost** in your browser you should see the following page: ![localhost](http://puu.sh/cxDfm/2aefad2963.png)
 
