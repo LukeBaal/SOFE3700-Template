@@ -1,7 +1,6 @@
 <?php
 
 require 'Slim/Slim.php';
-require_once '../inc/auth.php';
 \Slim\Slim::registerAutoloader();
 
 $app = new \Slim\Slim();
@@ -22,8 +21,10 @@ $app->get('/hello/:name', function ($name) {
  * Return a list of users encoded as JSON
  */
 $app->get('/getUsers', function () {
-    global $db_user, $db_pass, $db_name;
-    users = array();
+    $db_user = '';
+    $db_pass = '';
+    $db_name = '';
+    $users = array();
 
     // Connect to mysql
     $mysqli = new mysqli("localhost", $db_user, $db_pass, $db_name);
