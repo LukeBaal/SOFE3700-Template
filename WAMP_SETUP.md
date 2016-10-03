@@ -9,3 +9,7 @@ Please follow the instructions below for those doing PHP for their projects to e
 2. Go to **localhost** in your browser you should see the following page: ![localhost](img/localhost.png)
 
 3. If you are still having issues getting WAMP to start properly make sure to **EXIT SKYPE** and then try restarting WAMP server, for some reason it has issues starting if Skype is running.
+
+4. Add project files (all of them) to the wamp www folder
+
+![www](img/www.png)
